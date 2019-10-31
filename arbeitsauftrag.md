@@ -33,6 +33,8 @@ Der Kunde, TIbor Rui, wünscht sich ein Media-Center System, welches mit seinem 
 -   Grundkonfiguration Betriebssystem vornehmen
 -   Kodi installieren und konfigurieren
 -   Yatse und Spotify Kodi-Addons installieren
+-   *Fortgeschritten:* Web-Interface für Kodi einrichten
+-   *Fortgeschritten:* Medien über einen SMB-Fileshare an Raspberry Pi anbinden
 
 ### Zeitaufwand
 
