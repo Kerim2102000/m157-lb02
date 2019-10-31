@@ -58,10 +58,20 @@ Der Kunde, TIbor Rui, wünscht sich ein Media-Center System, welches mit seinem 
 | 5        | Kodi-Webinterface ist von einem anderen Gerät aus im selben Netzwerk erreichbar und Medien können abgespielt werden | http://<raspberry ip> im Webbrowser aufrufen und dort Medien wiedergeben                       |
 | 6        | Medien auf dem File-Share können auf dem Raspberry Pi über Kodi abgespielt werden                                   | Medien auf dem Fileserver speichern. Diese sollten dann in Kodi erscheinen und abspielbar sein |
 
+### Protokoll
+
+| Test Nr. | Status |
+|----------|--------|
+| 1        | Ok     |
+| 2        | Ok     |
+| 3        | Ok     |
+| 4        | Ok     |
+| 5        | Ok     |
+| 6        | Ok     |
+
 ## Übergabe an den Betrieb
 
--   Qualitaetssicherungprozess (separates Schriftliches Dokument, Uebergabe-
-    protokoll)
+-   In separatem Word-Dokument auffindbar.
 
 ## Quellen
 
