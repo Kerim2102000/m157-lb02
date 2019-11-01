@@ -50,7 +50,7 @@ Der Kunde, TIbor Rui, wünscht sich ein Media-Center System, welches mit seinem 
 Den Raspberry Pi mithilfe von [NOOBS](https://www.raspberrypi.org/downloads/noobs/) aufgesetzt. Zudem wurden Grundeinstellungen wie Keyboard Layout und Zeitzone angepasst.
 
 Damit man Remote Zugriff auf den Raspberry Pi bekommt, SSH und VNC aktivieren:
-![Raspberry Pi Konfiguration](/media/rasp_config.png)
+![Kodi Remote Control](/media/remotecontrol_remote.jpg)
 
 Eine statische IP-Adresse geben:
 
