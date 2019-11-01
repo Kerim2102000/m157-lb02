@@ -57,6 +57,7 @@ Der Kunde, TIbor Rui, wünscht sich ein Media-Center System, welches mit seinem 
 | 4        | Das Spotify-Interface ist in Kodi sichtbar, kann aufgerufen werden und Musik kann abgespielt werden                 | Spotify Plugin öffnen, Account-Daten eingeben und dann Musik abspielen                         |
 | 5        | Kodi-Webinterface ist von einem anderen Gerät aus im selben Netzwerk erreichbar und Medien können abgespielt werden | http://<raspberry ip> im Webbrowser aufrufen und dort Medien wiedergeben                       |
 | 6        | Medien auf dem File-Share können auf dem Raspberry Pi über Kodi abgespielt werden                                   | Medien auf dem Fileserver speichern. Diese sollten dann in Kodi erscheinen und abspielbar sein |
+| 7        | Die aktuellste Version von Raspbian ist auf dem Raspberry Pi installiert (zum Zeitpunkt der Dokumenten-Erstellung: Raspbian Buster)                                   | ?Befehl `cat /etc/os-release` auf der Kommandozeile eingeben und Abschnitt `VERSION` beachten |
 
 ### Protokoll
 
