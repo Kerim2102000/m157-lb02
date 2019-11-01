@@ -26,7 +26,7 @@ Das komplette Projektverzeichnis mit allen Markdown-Dateien ist Teil des Git-Rep
 
 ### Projektauftrag
 
-Der Kunde, TIbor Rui, wünscht sich ein Media-Center System, welches mit seinem Fernseher verbunden ist und via sein Smartphone gesteuert werden kann. Die Medien (z.B. Filme) sollen auf einem per USB mit dem Media-Center verbundenen Datenträger (USB-Stick oder Festplatte) liegen. Zusätzlich wünscht er sich ein Web-Interface als Übersich für sein Media-Center system und eine Spotify-Integration, sodass er sich seine Lieblingsmusik auch direkt über den Fernseher anhören kann.
+Der Kunde, Tibor Rui, wünscht sich ein Media-Center System, welches mit seinem Fernseher verbunden ist und via sein Smartphone gesteuert werden kann. Die Medien (z.B. Filme) sollen auf einem per USB mit dem Media-Center verbundenen Datenträger (USB-Stick oder Festplatte) liegen. Zusätzlich wünscht er sich ein Web-Interface als Übersich für sein Media-Center system und eine Spotify-Integration, sodass er sich seine Lieblingsmusik auch direkt über den Fernseher anhören kann.
 
 ### Vorgehensweise
 -   Raspberry Pi Betriebssystem installieren
@@ -50,14 +50,18 @@ Der Kunde, TIbor Rui, wünscht sich ein Media-Center System, welches mit seinem 
 -   USB Stick oder Festplatte für Medien-Dateien
 
 ## Installationsanleitung
+(Didaktisch reduzierte Anleitung aus Service-Design) So, dass Lernende eigene Lösungswege realisieren koennen)
 
+-   Anweisungen verstaendlich und nachvollziehbar - Keine fertigen Loesungsschritte aufzeigen
+-   Hilfestellung (Tipps, Quellen...)
+-   
 ### Grundauftrag
 
-Für dieses Projekt soll Kodi als Media-Center-Software verwendet werden. Dieses soll direkt über das Betriebssystem [OSMC](https://osmc.tv/download/) auf dem Raspberry Pi installiert werden.
+Für dieses Projekt soll Kodi als Media-Center-Software verwendet werden. Dieses soll direkt über das Betriebssystem [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) auf dem Raspberry Pi installiert werden.
 
--   Den Raspberry Pi mit [OSMC](https://osmc.tv/download/) als Betriebssystem installieren
--   OSMC einrichten und konfigurieren
--   [Yatse](https://yatse.tv/wiki/yatse-kodi-addon) Kodi addon installieren
+-   Den Raspberry Pi mit [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) als Betriebssystem aufsetzen
+-   Kodi installieren und konfigurieren
+-   [Yatse](https://yatse.tv/wiki/) Kodi addon installieren
 -   [Spotify](https://www.makeuseof.com/tag/how-to-listen-to-spotify-on-kodi/) Kodi addon installieren
 
 ### Advanced
@@ -69,16 +73,13 @@ Wenn Ihnen die obenstehenden Arbeitsschritte zu langweilig sind, können Sie noc
 
 ## Qualitätskontrolle
 
-### Grundauftrag
-
 #### Kodi Funktionalität
 
 ```shell
 grep Kodi .kodi/temp/kodi.log | head -3
 ```
 
-SOLL: Version 18.5
-
+SOLL: Version 17.6
 #### Yatse Plugin
 
 SOLL: mit dem Android-Gerät kann das Kodi-Interface bedient werden
@@ -91,7 +92,7 @@ SOLL: das Spotify Interface ist über Kodi erreichbar und Musik kann abgespielt 
 
 #### Web Interface
 
-http://<raspberry-ip> im Webbrowser aufrufen
+http://<raspberry-ip:8080> im Webbrowser aufrufen
 SOLL: das Kodi-Webinterface wird angezeigt
 
 #### File-Server
